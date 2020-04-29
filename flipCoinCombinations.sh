@@ -32,8 +32,6 @@ DoubleDict[TH]=$th
 
 for i in ${!DoubleDict[@]}
 do
-	temp=$i
-	percentResult=$((${DoubleDict[$i]} * 100 / 20))
 	PercentDouble[$i]=$((${DoubleDict[$i]} * 100 / 20))
 done
 echo ${PercentDouble[@]}
